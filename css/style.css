@@ -8,13 +8,17 @@
 }
 
 @media screen and (max-width: 576px) {
-    .nav_searchbox {
-        display: none;
+
+    .nav_searchbox,
+    .banner_under_overlay {
+        display: none !important;
     }
 }
 
 @media screen and (min-width: 576px) and (max-width: 768px) {
-    .nav_searchbox {
-        display: none;
+
+    .nav_searchbox,
+    .banner_under_overlay {
+        display: none !important;
     }
 }
