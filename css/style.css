@@ -1,13 +1,20 @@
-.font-primary{
+.font-primary {
     font-family: 'Lato', sans-serif;
 }
+
+.banner_overlay {
+    border-radius: 8px;
+    background: linear-gradient(180deg, #121212 0%, rgba(18, 18, 18, 0.00) 100%);
+}
+
 @media screen and (max-width: 576px) {
-    .nav_searchbox{
+    .nav_searchbox {
         display: none;
     }
 }
-@media screen and (min-width: 576px) and (max-width: 768px){
-    .nav_searchbox{
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    .nav_searchbox {
         display: none;
     }
 }
