@@ -31,6 +31,24 @@
     .banner_under_overlay {
         display: none !important;
     }
+    /* .choose_container{
+        grid-template-columns: 1fr; 
+        grid-template-rows: 1fr 1fr 1fr; 
+        grid-template-areas: 
+        "choose_img"
+        "choose_content_box1"
+        "choose_content_box2";
+    } */
+    .choose_img{
+        order: 1;
+    }
+    .choose_content_box1{
+        order: 2;
+    }
+    .choose_content_box2{
+        order: 3;
+    }
+    
 }
 
 @media screen and (min-width: 576px) and (max-width: 768px) {
